@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height:100%;
+}
+.container {
+  background: linear-gradient(180deg,#9d52e4,#6d84c6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  text-align:center;
+  background-color: rgba(225, 225, 225, 0.10);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 2px 1px 2px 1px #615e61;
+}
+.logo{
+  width: 150px;
+  object-fit: contain;
+}
+h1{
+  color: #333;
+  margin-bottom: 20px;
+}
+h2{
+  color: rgb(242, 235, 30);
+  font-family: "Doto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+p{
+  color;
+  margin-bottom: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+input[type="email"]{
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+input[type="checkbox"]{
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+button{
+  padding: 0.5rem;
+  background-color: #efeccfc7;
+  color: #975a88;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease-in-out;
+  font-size:15px;
+}
+button:hover{
+  background-color:antiquewhite;
+}
+
