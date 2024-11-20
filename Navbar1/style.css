@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'josefin sans', sans-serif;
+}
+.hero{
+  height: 110vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(244, 241, 241, 0.225),rgba(0,0,0,0.1)),url(../Navbar1/image/background.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+.logo{
+  margin-right: 5px;
+}
+
+img{
+  width: 162px;
+  object-fit: contain;
+  height: 10vh;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding-top: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+nav ul{
+  box-shadow: 0px 0px 30px rgba(7, 9, 26, 0.361);
+  border-radius: 5px;
+  font-size: 1.8vmax;
+
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px 20px;
+  position: relative;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: #ff4da6;
+  transition: 0.1s;
+}
+h1{
+  font-size: 25px;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+}
+button{
+  margin-left: 5px;
+  border: none;
+  background: #cfb2d340;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+}
+button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+nav button a{
+  text-decoration:none;
+  color: white;
+}
