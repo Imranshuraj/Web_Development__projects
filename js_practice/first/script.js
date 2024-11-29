@@ -66,12 +66,51 @@
 // //or
 // console.log(`Hello my name is ${name} and my repo count is ${repoCount} `);
 
-const gameName = new String('Agk Game')
-console.log(gameName[0]);
-console.log(gameName.__proto__);
-console.log(gameName);
-console.log(gameName.length);
-console.log(gameName.toUpperCase())
-console.log(gameName.toLowerCase())
-console.log(gameName.charAt(4)); //It is used to check the character of a position
-console.log(gameName.indexOf('m'))// it is  used to check the position of a character
+// const gameName = new String('Agk Game')
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
+// console.log(gameName);
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase())
+// console.log(gameName.toLowerCase())
+// console.log(gameName.charAt(4)); //It is used to check the character of a position
+// console.log(gameName.indexOf('m'))// it is  used to check the position of a character
+
+// var n = 2;
+// function square (num) {
+//   var ans = num * num;
+//   return ans;
+// }
+// var square2 = square(n);
+// var square4 = square(4);
+// console.log(square2);
+
+// var x=1;
+// a();
+// b();
+// console.log(x);
+
+// function a() {
+//   var x = 10;
+//   console.log(x);
+// }
+
+// function b() {
+//   var x = 100;
+//   console.log(x);
+// }
+
+// function a() {
+//   console.log(b);
+// }
+// var b=10;
+// a();
+
+function a() {
+  b();
+  function b() {
+    console.log(c);
+  }
+}
+var c = 10;
+a();

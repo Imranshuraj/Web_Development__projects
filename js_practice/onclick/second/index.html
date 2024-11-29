@@ -1,0 +1,18 @@
+<!DOCTYYPE html>
+<html lang="en">
+  <head>
+    <meta charsert="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Bulb on click </title>
+  </head>
+  <body>
+    <h2>What can javascript do ?</h2>
+    <p>Javascript can change HTML attribute values.</p>
+    <p>In this case javascript cahnges the value of the src(source) attribute of an image.
+    </p>
+    <img src="./images/withoutbg.png" alt="" id="myImage" style="width:100px;">
+    <br>
+    <button onclick="document.getElementById('myImage').src='./images/withbg.png'">Show image with background</button>
+    <button onclick="document.getElementById('myImage').src='./images/withoutbg.png'">Show without background</button>
+  </body>
+</html>
